@@ -1,6 +1,6 @@
 # Terraform AWS Backup for EFS
 
-This module was design to create an automated backup of an EFS in AWS Backup
+This module was designed to create an automated backup of an EFS in AWS Backup
 
 ## Example
 
