@@ -4,7 +4,7 @@ This module was design to create an automated backup of an EFS in AWS Backup
 
 ## Example
 
-''' terraform
+``` terraform
 module "backup-module" {
 source = jherio/tf_aws_backup_efs
 account_id = local.account_id
@@ -14,7 +14,7 @@ backup-vault-names = var.backup-vault-names
 rules = var.rules
 backup-resource-arn = var.backup-resource-arn
 }
-'''
+```
 
 ## Variables
 
